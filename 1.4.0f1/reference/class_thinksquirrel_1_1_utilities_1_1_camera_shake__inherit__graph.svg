@@ -97,7 +97,7 @@ var sectionId = 'dynsection-0';
 <polygon fill="none" stroke="black" points="15.1489,-371.5 15.1489,-495.5 117.863,-495.5 117.863,-371.5 15.1489,-371.5"/>
 <text text-anchor="middle" x="66.5059" y="-483.5" font-family="Helvetica,sans-Serif" font-size="10.00">CameraShakeBase</text>
 <polyline fill="none" stroke="black" points="15.1489,-477.5 117.863,-477.5 "/>
-<text text-anchor="start" x="23.1489" y="-465.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ userData</text>
+<text text-anchor="middle" x="66.5059" y="-465.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <polyline fill="none" stroke="black" points="15.1489,-459.5 117.863,-459.5 "/>
 <text text-anchor="start" x="23.1489" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Log()</text>
 <text text-anchor="start" x="23.1489" y="-437.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Log()</text>

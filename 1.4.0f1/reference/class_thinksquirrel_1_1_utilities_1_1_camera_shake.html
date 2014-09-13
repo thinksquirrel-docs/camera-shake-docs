@@ -137,7 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaa13cbae646befa79a5d27d01d8df17f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels and resets a camera shake in progress.  <a href="#aaa13cbae646befa79a5d27d01d8df17f">More...</a><br /></td></tr>
 <tr class="separator:aaa13cbae646befa79a5d27d01d8df17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba04d0172ed14a2822df1ed0cf422699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#aba04d0172ed14a2822df1ed0cf422699">CancelShake</a> (float time)</td></tr>
-<tr class="memdesc:aba04d0172ed14a2822df1ed0cf422699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels a camera shake in progress, and smoothly resets the camera over the specified time, in seconds.  <a href="#aba04d0172ed14a2822df1ed0cf422699">More...</a><br /></td></tr>
+<tr class="memdesc:aba04d0172ed14a2822df1ed0cf422699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels a camera shake in progress, and resets associated cameras over the specified time, in seconds.  <a href="#aba04d0172ed14a2822df1ed0cf422699">More...</a><br /></td></tr>
 <tr class="separator:aba04d0172ed14a2822df1ed0cf422699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dfb6087a49cefc26bb89da0c7da0bbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a8dfb6087a49cefc26bb89da0c7da0bbf">EndShakeGUI</a> ()</td></tr>
 <tr class="memdesc:a8dfb6087a49cefc26bb89da0c7da0bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this at the end of an OnGUI call in order to shake OnGUI with Camera Shake.  <a href="#a8dfb6087a49cefc26bb89da0c7da0bbf">More...</a><br /></td></tr>
@@ -152,16 +152,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac2a495e22dfafc8282d1d0689404e608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the camera is currently shaking.  <a href="#ac2a495e22dfafc8282d1d0689404e608">More...</a><br /></td></tr>
 <tr class="separator:ac2a495e22dfafc8282d1d0689404e608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c68649d610bb751ee3d3f89250a87fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a2c68649d610bb751ee3d3f89250a87fe">Shake</a> ()</td></tr>
-<tr class="memdesc:a2c68649d610bb751ee3d3f89250a87fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake the camera, using the default settings.  <a href="#a2c68649d610bb751ee3d3f89250a87fe">More...</a><br /></td></tr>
+<tr class="memdesc:a2c68649d610bb751ee3d3f89250a87fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with this component, using the default settings.  <a href="#a2c68649d610bb751ee3d3f89250a87fe">More...</a><br /></td></tr>
 <tr class="separator:a2c68649d610bb751ee3d3f89250a87fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa620329566c51583021798672ee7446f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#aa620329566c51583021798672ee7446f">Shake</a> (<a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a34d6761f8595fe33154b274863fb8ef4">ShakeType</a> <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a9b5fdbec189e6cd08d14abe2e18b978c">shakeType</a>, int <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a57f8d409c2adcad5aec89946a4de3b4c">numberOfShakes</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a5e23b9c920d5922d4c2ac57ecee8f137">shakeAmount</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#ad89cb3812249bd108de520f87c9625d6">rotationAmount</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a06f14a9abd47b91465f895d5259cdc1b">distance</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a856b62007ea6aa18d41158a4521f4d26">decay</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a3240c69bac8f64e7ab520ddb0ecc8a8b">uiShakeModifier</a>, bool <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a21765d647d75e41b3c9fc94ea6f40f10">multiplyByTimeScale</a>)</td></tr>
-<tr class="memdesc:aa620329566c51583021798672ee7446f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake the camera, temporarily overriding the default settings.  <a href="#aa620329566c51583021798672ee7446f">More...</a><br /></td></tr>
+<tr class="memdesc:aa620329566c51583021798672ee7446f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with this component, temporarily overriding the default settings.  <a href="#aa620329566c51583021798672ee7446f">More...</a><br /></td></tr>
 <tr class="separator:aa620329566c51583021798672ee7446f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a186ef998ec4462accef3422a05eefab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a186ef998ec4462accef3422a05eefab9">Shake</a> (System.Action callback)</td></tr>
-<tr class="memdesc:a186ef998ec4462accef3422a05eefab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake the camera (using the default settings), then call the specified callback once completed.  <a href="#a186ef998ec4462accef3422a05eefab9">More...</a><br /></td></tr>
+<tr class="memdesc:a186ef998ec4462accef3422a05eefab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with this component (using the default settings), then call the specified callback once completed.  <a href="#a186ef998ec4462accef3422a05eefab9">More...</a><br /></td></tr>
 <tr class="separator:a186ef998ec4462accef3422a05eefab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf2a78e45a0d890760f2ac47ba35b7b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#aaf2a78e45a0d890760f2ac47ba35b7b6">Shake</a> (<a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a34d6761f8595fe33154b274863fb8ef4">ShakeType</a> <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a9b5fdbec189e6cd08d14abe2e18b978c">shakeType</a>, int <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a57f8d409c2adcad5aec89946a4de3b4c">numberOfShakes</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a5e23b9c920d5922d4c2ac57ecee8f137">shakeAmount</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#ad89cb3812249bd108de520f87c9625d6">rotationAmount</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a06f14a9abd47b91465f895d5259cdc1b">distance</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a856b62007ea6aa18d41158a4521f4d26">decay</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a3240c69bac8f64e7ab520ddb0ecc8a8b">uiShakeModifier</a>, bool <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a21765d647d75e41b3c9fc94ea6f40f10">multiplyByTimeScale</a>, System.Action callback)</td></tr>
-<tr class="memdesc:aaf2a78e45a0d890760f2ac47ba35b7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake the camera (using temporarily overriden settings), then call the specified callback once completed.  <a href="#aaf2a78e45a0d890760f2ac47ba35b7b6">More...</a><br /></td></tr>
+<tr class="memdesc:aaf2a78e45a0d890760f2ac47ba35b7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with this component (using temporarily overriden settings), then call the specified callback once completed.  <a href="#aaf2a78e45a0d890760f2ac47ba35b7b6">More...</a><br /></td></tr>
 <tr class="separator:aaf2a78e45a0d890760f2ac47ba35b7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -176,16 +176,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9617308fa61b15b6d6950931676ce1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all enabled Camera Shake components in the scene.  <a href="#a9617308fa61b15b6d6950931676ce1a3">More...</a><br /></td></tr>
 <tr class="separator:a9617308fa61b15b6d6950931676ce1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a016d7ee175dd304e9795b5c24a77103c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a016d7ee175dd304e9795b5c24a77103c">ShakeAll</a> ()</td></tr>
-<tr class="memdesc:a016d7ee175dd304e9795b5c24a77103c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all enabled cameras in the scene, using the default settings.  <a href="#a016d7ee175dd304e9795b5c24a77103c">More...</a><br /></td></tr>
+<tr class="memdesc:a016d7ee175dd304e9795b5c24a77103c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with all enabled Camera Shake components in the scene, using the default settings.  <a href="#a016d7ee175dd304e9795b5c24a77103c">More...</a><br /></td></tr>
 <tr class="separator:a016d7ee175dd304e9795b5c24a77103c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa466f5c713176f00792f615c1b89b8fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#aa466f5c713176f00792f615c1b89b8fa">ShakeAll</a> (<a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a34d6761f8595fe33154b274863fb8ef4">ShakeType</a> <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a9b5fdbec189e6cd08d14abe2e18b978c">shakeType</a>, int <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a57f8d409c2adcad5aec89946a4de3b4c">numberOfShakes</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a5e23b9c920d5922d4c2ac57ecee8f137">shakeAmount</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#ad89cb3812249bd108de520f87c9625d6">rotationAmount</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a06f14a9abd47b91465f895d5259cdc1b">distance</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a856b62007ea6aa18d41158a4521f4d26">decay</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a3240c69bac8f64e7ab520ddb0ecc8a8b">uiShakeModifier</a>, bool <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a21765d647d75e41b3c9fc94ea6f40f10">multiplyByTimeScale</a>)</td></tr>
-<tr class="memdesc:aa466f5c713176f00792f615c1b89b8fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all enabled cameras in the scene, temporarily overriding the default settings.  <a href="#aa466f5c713176f00792f615c1b89b8fa">More...</a><br /></td></tr>
+<tr class="memdesc:aa466f5c713176f00792f615c1b89b8fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with all enabled Camera Shake components in the scene, temporarily overriding the default settings.  <a href="#aa466f5c713176f00792f615c1b89b8fa">More...</a><br /></td></tr>
 <tr class="separator:aa466f5c713176f00792f615c1b89b8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38cb928789aa31487f604aceaa0011e3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a38cb928789aa31487f604aceaa0011e3">ShakeAll</a> (System.Action callback)</td></tr>
-<tr class="memdesc:a38cb928789aa31487f604aceaa0011e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all enabled cameras in the scene (using the default settings), then call the specified callback once completed.  <a href="#a38cb928789aa31487f604aceaa0011e3">More...</a><br /></td></tr>
+<tr class="memdesc:a38cb928789aa31487f604aceaa0011e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with all enabled Camera Shake components in the scene, then call the specified callback once completed.  <a href="#a38cb928789aa31487f604aceaa0011e3">More...</a><br /></td></tr>
 <tr class="separator:a38cb928789aa31487f604aceaa0011e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa446988bc4fc0add1d8e24d708ccc3a7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#aa446988bc4fc0add1d8e24d708ccc3a7">ShakeAll</a> (<a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a34d6761f8595fe33154b274863fb8ef4">ShakeType</a> <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a9b5fdbec189e6cd08d14abe2e18b978c">shakeType</a>, int <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a57f8d409c2adcad5aec89946a4de3b4c">numberOfShakes</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a5e23b9c920d5922d4c2ac57ecee8f137">shakeAmount</a>, Vector3 <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#ad89cb3812249bd108de520f87c9625d6">rotationAmount</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a06f14a9abd47b91465f895d5259cdc1b">distance</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a856b62007ea6aa18d41158a4521f4d26">decay</a>, float <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a3240c69bac8f64e7ab520ddb0ecc8a8b">uiShakeModifier</a>, bool <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#a21765d647d75e41b3c9fc94ea6f40f10">multiplyByTimeScale</a>, System.Action callback)</td></tr>
-<tr class="memdesc:aa446988bc4fc0add1d8e24d708ccc3a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all enabled cameras in the scene (using temporarily overriden settings), then call the specified callback once completed.  <a href="#aa446988bc4fc0add1d8e24d708ccc3a7">More...</a><br /></td></tr>
+<tr class="memdesc:aa446988bc4fc0add1d8e24d708ccc3a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shake all cameras associated with all enabled Camera Shake components in the scene (using temporarily overriden settings), then call the specified callback once completed.  <a href="#aa446988bc4fc0add1d8e24d708ccc3a7">More...</a><br /></td></tr>
 <tr class="separator:aa446988bc4fc0add1d8e24d708ccc3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake_base.html">CameraShakeBase</a></td></tr>
 <tr class="memitem:ad2db78c4de8af65eb2885eaaf1e8402e inherit pub_static_methods_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake_base.html#ad2db78c4de8af65eb2885eaaf1e8402e">Log</a> (object message, string prefix, string type)</td></tr>
@@ -248,10 +248,6 @@ Properties</h2></td></tr>
 <tr class="memitem:ab179ef3686be391110940dd79ef6c57c"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake.html#ab179ef3686be391110940dd79ef6c57c">uiShakeRect</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ab179ef3686be391110940dd79ef6c57c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current shake area for the UI (in screen space).  <a href="#ab179ef3686be391110940dd79ef6c57c">More...</a><br /></td></tr>
 <tr class="separator:ab179ef3686be391110940dd79ef6c57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base"><td colspan="2" onclick="javascript:toggleInherit('properties_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake_base.html">CameraShakeBase</a></td></tr>
-<tr class="memitem:a60e040fc2de55749cb3510845ee15f62 inherit properties_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thinksquirrel_1_1_utilities_1_1_camera_shake_base.html#a60e040fc2de55749cb3510845ee15f62">userData</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a60e040fc2de55749cb3510845ee15f62 inherit properties_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional user data associated with this object. This is unused by default.  <a href="#a60e040fc2de55749cb3510845ee15f62">More...</a><br /></td></tr>
-<tr class="separator:a60e040fc2de55749cb3510845ee15f62 inherit properties_class_thinksquirrel_1_1_utilities_1_1_camera_shake_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
@@ -394,6 +390,12 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Cancel all camera shakes in progress in the current scene, and reset all cameras over the specified time (in seconds). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The amount of time to take to reset the cameras, in seconds. During this time, the camera is smoothly moved back to its original orientation.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -444,7 +446,13 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Cancels a camera shake in progress, and smoothly resets the camera over the specified time, in seconds. </p>
+<p>Cancels a camera shake in progress, and resets associated cameras over the specified time, in seconds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The amount of time to take to reset the camera, in seconds. During this time, the camera is smoothly moved back to its original orientation.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -520,6 +528,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all enabled Camera Shake components in the scene. </p>
+<dl class="section return"><dt>Returns</dt><dd>An array of all enabled Camera Shake components.</dd></dl>
 
 </div>
 </div>
@@ -545,6 +554,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if the camera is currently cancelling a shake action. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the camera is currently cancelling a shake; otherwise false.</dd></dl>
 
 </div>
 </div>
@@ -570,6 +580,7 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if the camera is currently shaking. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the camera is currently shaking; otherwise false.</dd></dl>
 
 </div>
 </div>
@@ -594,7 +605,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake the camera, using the default settings. </p>
+<p>Shake all cameras associated with this component, using the default settings. </p>
 
 </div>
 </div>
@@ -672,7 +683,21 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake the camera, temporarily overriding the default settings. </p>
+<p>Shake all cameras associated with this component, temporarily overriding the default settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shakeType</td><td>The type of shake to perform (camera matrix or local position).</td></tr>
+    <tr><td class="paramname">numberOfShakes</td><td>The maximum number of shakes to perform.</td></tr>
+    <tr><td class="paramname">shakeAmount</td><td>The amount to shake in each direction.</td></tr>
+    <tr><td class="paramname">rotationAmount</td><td>The amount to rotate in each axis.</td></tr>
+    <tr><td class="paramname">distance</td><td>The initial distance for the first shake.</td></tr>
+    <tr><td class="paramname">speed</td><td>The speed multiplier for the shake.</td></tr>
+    <tr><td class="paramname">decay</td><td>The decay speed (between 0 and 1). Higher values will stop shaking sooner.</td></tr>
+    <tr><td class="paramname">uiShakeModifier</td><td>The modifier applied to speed in order to shake the UI.</td></tr>
+    <tr><td class="paramname">multiplyByTimeScale</td><td>If true, multiplies the shake speed by the time scale.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -698,7 +723,13 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake the camera (using the default settings), then call the specified callback once completed. </p>
+<p>Shake all cameras associated with this component (using the default settings), then call the specified callback once completed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>An action to invoke after the cameras have finished shaking.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -782,7 +813,22 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake the camera (using temporarily overriden settings), then call the specified callback once completed. </p>
+<p>Shake all cameras associated with this component (using temporarily overriden settings), then call the specified callback once completed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shakeType</td><td>The type of shake to perform (camera matrix or local position).</td></tr>
+    <tr><td class="paramname">numberOfShakes</td><td>The maximum number of shakes to perform.</td></tr>
+    <tr><td class="paramname">shakeAmount</td><td>The amount to shake in each direction.</td></tr>
+    <tr><td class="paramname">rotationAmount</td><td>The amount to rotate in each axis.</td></tr>
+    <tr><td class="paramname">distance</td><td>The initial distance for the first shake.</td></tr>
+    <tr><td class="paramname">speed</td><td>The speed multiplier for the shake.</td></tr>
+    <tr><td class="paramname">decay</td><td>The decay speed (between 0 and 1). Higher values will stop shaking sooner.</td></tr>
+    <tr><td class="paramname">uiShakeModifier</td><td>The modifier applied to speed in order to shake the UI.</td></tr>
+    <tr><td class="paramname">multiplyByTimeScale</td><td>If true, multiplies the shake speed by the time scale.</td></tr>
+    <tr><td class="paramname">callback</td><td>An action to invoke after the cameras have finished shaking.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -807,7 +853,7 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake all enabled cameras in the scene, using the default settings. </p>
+<p>Shake all cameras associated with all enabled Camera Shake components in the scene, using the default settings. </p>
 
 </div>
 </div>
@@ -885,7 +931,21 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake all enabled cameras in the scene, temporarily overriding the default settings. </p>
+<p>Shake all cameras associated with all enabled Camera Shake components in the scene, temporarily overriding the default settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shakeType</td><td>The type of shake to perform (camera matrix or local position).</td></tr>
+    <tr><td class="paramname">numberOfShakes</td><td>The maximum number of shakes to perform.</td></tr>
+    <tr><td class="paramname">shakeAmount</td><td>The amount to shake in each direction.</td></tr>
+    <tr><td class="paramname">rotationAmount</td><td>The amount to rotate in each axis.</td></tr>
+    <tr><td class="paramname">distance</td><td>The initial distance for the first shake.</td></tr>
+    <tr><td class="paramname">speed</td><td>The speed multiplier for the shake.</td></tr>
+    <tr><td class="paramname">decay</td><td>The decay speed (between 0 and 1). Higher values will stop shaking sooner.</td></tr>
+    <tr><td class="paramname">uiShakeModifier</td><td>The modifier applied to speed in order to shake the UI.</td></tr>
+    <tr><td class="paramname">multiplyByTimeScale</td><td>If true, multiplies the shake speed by the time scale.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -911,7 +971,13 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake all enabled cameras in the scene (using the default settings), then call the specified callback once completed. </p>
+<p>Shake all cameras associated with all enabled Camera Shake components in the scene, then call the specified callback once completed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>An action to invoke after the cameras have finished shaking.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -995,7 +1061,22 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shake all enabled cameras in the scene (using temporarily overriden settings), then call the specified callback once completed. </p>
+<p>Shake all cameras associated with all enabled Camera Shake components in the scene (using temporarily overriden settings), then call the specified callback once completed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shakeType</td><td>The type of shake to perform (camera matrix or local position).</td></tr>
+    <tr><td class="paramname">numberOfShakes</td><td>The maximum number of shakes to perform.</td></tr>
+    <tr><td class="paramname">shakeAmount</td><td>The amount to shake in each direction.</td></tr>
+    <tr><td class="paramname">rotationAmount</td><td>The amount to rotate in each axis.</td></tr>
+    <tr><td class="paramname">distance</td><td>The initial distance for the first shake.</td></tr>
+    <tr><td class="paramname">speed</td><td>The speed multiplier for the shake.</td></tr>
+    <tr><td class="paramname">decay</td><td>The decay speed (between 0 and 1). Higher values will stop shaking sooner.</td></tr>
+    <tr><td class="paramname">uiShakeModifier</td><td>The modifier applied to speed in order to shake the UI.</td></tr>
+    <tr><td class="paramname">multiplyByTimeScale</td><td>If true, multiplies the shake speed by the time scale.</td></tr>
+    <tr><td class="paramname">callback</td><td>An action to invoke after the cameras have finished shaking.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1302,7 +1383,7 @@ Events</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Last Updated: Fri Sep 12 2014 22:22:38
+Last Updated: Fri Sep 12 2014 22:40:19
 </small></address>
 </body>
 </html>
