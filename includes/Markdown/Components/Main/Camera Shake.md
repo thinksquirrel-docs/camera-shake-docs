@@ -5,7 +5,7 @@ Camera Shake {#camerashake}
 The Camera Shake component is the main component of Camera Shake. It can shake
 multiple cameras, based on either their transform or camera matrix.
 
-@sa [CameraShake](@ref Thinksquirrel.Utilities.CameraShake)
+@sa [CameraShake](@ref Thinksquirrel.CShake.CameraShake)
 
 ![1]
 
@@ -28,7 +28,7 @@ multiple cameras, based on either their transform or camera matrix.
 <table width=80% align=center><tr>
 <td width=33% align=left><< @ref components</td>
 <td width=34% align=center>@ref components</td>
-<td width=33% align=right></td>
+<td width=33% align=right><a href=namespaces.html><b>API Documentation</b></a> >></td>
 </tr></table>
 
 [1]:@ref camerashake.png
