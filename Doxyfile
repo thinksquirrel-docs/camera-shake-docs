@@ -764,9 +764,8 @@ WARN_LOGFILE           =
 # spaces.
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = "../../Versions/Trunk/Assets/Camera Shake/_Main/Source" \
-                         "../../Versions/Trunk/Assets/Camera Shake/Editor/Source" \
-                         "../../Versions/Trunk/Assets/Camera Shake/Camera Shake Example/Common" \
+INPUT                  = "../../Asset Store/Thinksquirrel 2D Bundle/Assets/Camera Shake/_Main/Source" \
+                         "../../Asset Store/Thinksquirrel 2D Bundle/Assets/Camera Shake/Editor/Source" \                         
                          includes
 
 # This tag can be used to specify the character encoding of the source files
